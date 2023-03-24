@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "app",
-            "image": "427229268417.dkr.ecr.ap-south-1.amazonaws.com/app_repo:latest",
+            "image": "427229268417.dkr.ecr.ap-south-1.amazonaws.com/app_repo",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
@@ -20,8 +20,8 @@
         }
     ],
     "family": "app",
-    "taskRoleArn": "arn:aws:iam::427229268417:role/AWSServiceRoleForECS",
-    "executionRoleArn": "arn:aws:iam::427229268417:role/AWSServiceRoleForECS",
+    "taskRoleArn": "arn:aws:iam::427229268417:role/ECS_Task_Execution",
+    "executionRoleArn": "arn:aws:iam::427229268417:role/ECS_Task_Execution",
     "networkMode": "awsvpc",
     "volumes": [],
     "status": "ACTIVE",
@@ -52,7 +52,7 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": "2023-03-24T10:03:28.544Z",
+    "registeredAt": "2023-03-24T11:00:47.497Z",
     "registeredBy": "arn:aws:iam::427229268417:root",
     "tags": []
 }
